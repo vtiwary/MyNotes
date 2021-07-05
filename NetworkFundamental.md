@@ -16,7 +16,7 @@ Doesn't give uniquly identifiable devices
 
 **Layer 2** Data Link layer
 All layers above use data link later
-MAC total 48 Bits.  brings in MAC address for each devices.. 24 bits by manufacturer,first 24 are OUI (Organization unique Idetifier).. assigned to companies building network hardware. Next 24 are NIC addderss (Network Interface card address)
+MAC total 48 Bits.  brings in MAC address for each devices.. 24 bits by manufacturer,first 24 are OUI (Organization unique Idetifier).. assigned to companies building network hardware. Next 24 are NIC addderss (Network Interface card controller)
 
 
 
