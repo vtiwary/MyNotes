@@ -1,0 +1,24 @@
+How does a YAML Looks like
+
+Type: Person
+  Name: Vikash
+  Age: 30
+  Sibling: [Kallu, Mallu, Rupu, "Babu"]
+  Sibling1:
+    - Kalu
+    - Balu
+    - Salu
+  #Siblings for List or Array.. all alues of simlings
+  # Safe to enclose things in double quotes or single to be precise
+  #Identation using space and in same list tructure
+  #dictionalry is a key value pair unordered
+  AdriansCats: 
+    - name: roffle
+      color: [black, blue]
+    - name: truffle
+      color: "black"
+      numerofeyes: 1
+    - name: winku
+      color: white
+  # Above roffle ,truffle are dictionary
+  
