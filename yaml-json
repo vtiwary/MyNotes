@@ -22,3 +22,28 @@ Type: Person
       color: white
   # Above roffle ,truffle are dictionary
   
+  Similarly JSON
+  {
+
+    "_comment1": "below is an object, an unordered cllection of key valuer pair,similart dictionary in yaml",
+    "name":"bablu",
+    "age":20,
+    "sex":"female",
+    "siblings":["rolu","golu","molu"],
+    "_comment2":"above is a list",
+    "cats":{
+        
+        "cat1":{"name":"ruffle",
+        "color":"brwon",
+        "eyes":"green"},
+        "cat2":{
+            "name":"truffles",
+        "color":"yellow",
+        "eyes":"blue"
+
+        },
+        "_comment3":"above is nested json object"
+    }
+
+}
+  
