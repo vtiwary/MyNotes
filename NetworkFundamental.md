@@ -7,5 +7,6 @@ physical is 0 and 1 and the agreement between devices on 0 and 1
 Hub can be used but the feature here is if anything is received at one post it's transmitted to its all ports, including error and collisions
 layer 1 : no device address, all data is processed by all devices
 Like: Shouting in a Room full of people wihtut using any name
+![image](https://user-images.githubusercontent.com/24499265/124416380-81e2c780-dd74-11eb-8a92-4a34f866a3d4.png)
 
 
