@@ -1,0 +1,4 @@
+There are 7 layers in OSI model
+3 media and 4 host layer (physical -1, applicatin - 7th) .. it starts from application layers in source and ends at appliaction layer (i.e. chrome)  in destination, going from later 
+7to 1 and then at destination 1 (physical i.e network card layer) to 7 
+
