@@ -16,7 +16,20 @@ Doesn't give uniquly identifiable devices
 
 **Layer 2** Data Link layer
 All layers above use data link later
-MAC total 48 Bits.  brings in MAC address for each devices.. 24 bits by manufacturer,first 24 are OUI (Organization unique Idetifier).. assigned to companies building network hardware. Next 24 are NIC addderss (Network Interface card controller)
+MAC total 48 Bits.  brings in MAC address for each devices.. 24 bits by manufacturer,first 24 are OUI (Organization unique Idetifier).. assigned to companies building network hardware. Next 24 are NIC addderss (Network Interface card controller): togaterh 48 bits are gloally unique
+
+provides frame
+ET (EtherTYpe)(16 bit) tells which layer 3 protocol put originally put data in the frame
+at destination layer 3 of destinatin is provided after extracting Payload usig ET
+![image](https://user-images.githubusercontent.com/24499265/124418840-ff5d0680-dd79-11eb-93b3-2abef46c604d.png)
+
+FCS Bits is to cehck for any error
+
+**CSMA/CD in layer 2**
+Carrier Sense Multiple Access : checks the layer 1 if anyone is transmiting (carrier) and transmits the frame
+on receiving end it sees tha the 
+
+
 
 
 
