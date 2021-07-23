@@ -34,8 +34,12 @@ if a collision is detected at layer two a eacch detecting devices jam and backof
 if another collission happens random backoff  it will be for a higher time
 Hub is layer one, even if devices connected to it run layer 2 we will have issues of collision (may be less though due to CDMA/CD on laptops) but its a dumb repeater machine so will have problems..better to use a switch 
 
-![image](https://user-images.githubusercontent.com/24499265/126740650-e62f5aa1-cb5c-4d5e-aba8-cff46e3cb527.png)
-it se
+![image](https://user-images.githubusercontent.com/24499265/126740770-1ac3e55e-67bc-406a-ac1b-3efa2556f80c.png)
+
+it seems MAC address in frames so can update its MAC address table to know which MAC address is mapped to which port..
+initially it forward to each port untill MAC mapping table is complete.. it doesnt transmit the same frame to sender (Intelligent eh)
+Switch works on layer2
+
 
 
 
