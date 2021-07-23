@@ -25,7 +25,7 @@ at destination layer 3 of destinatin is provided after extracting Payload usig E
 
 FCS Bits is to cehck for any error
 
-**CSMA/CD in layer 2**
+**CSMA/CD in layer 2 Data link layer **
 Carrier Sense Multiple Access : checks the layer 1 if anyone is transmiting (carrier) and transmits the frame
 on receiving end it checks MACS address and realises its destined for itself
 Layer 2 checks medium for any transmission happening. if it happens it will stop layer 1 from transmitting and will wait
@@ -38,7 +38,16 @@ Hub is layer one, even if devices connected to it run layer 2 we will have issue
 
 it seems MAC address in frames so can update its MAC address table to know which MAC address is mapped to which port..
 initially it forward to each port untill MAC mapping table is complete.. it doesnt transmit the same frame to sender (Intelligent eh)
-Switch works on layer2
+Switch works on layer2.. Now we have identifiable devices and media access control and detect collission and workaround them. So unicast and broadcast communication
+
+**Decimal to Binary for IP4 **
+
+133.33.12.255 is dotted decimal notation (0-255 human readable) 32 bit (8 bit each-1 octat)
+![image](https://user-images.githubusercontent.com/24499265/126743794-e4f6e367-c4ca-4f52-95f1-c335e1769b93.png)
+
+
+
+
 
 
 
