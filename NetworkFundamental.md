@@ -40,12 +40,34 @@ it seems MAC address in frames so can update its MAC address table to know which
 initially it forward to each port untill MAC mapping table is complete.. it doesnt transmit the same frame to sender (Intelligent eh)
 Switch works on layer2.. Now we have identifiable devices and media access control and detect collission and workaround them. So unicast and broadcast communication
 
-**Decimal to Binary for IP4 **
+** Binary to Decimal for IP4 **
 
 133.33.12.255 is dotted decimal notation (0-255 human readable) 32 bit (8 bit each-1 octat)
 ![image](https://user-images.githubusercontent.com/24499265/126743794-e4f6e367-c4ca-4f52-95f1-c335e1769b93.png)
+all is if the number is more than the one in the Binary position value make it one and reduce the number in that octat they check against next binary postiion . if less make it 0 if not make it one and then reduce it till the end
 
 
+**Democal to BInary IP4**
+still need to use the table ..use the field and work with it 1 or 3
+![image](https://user-images.githubusercontent.com/24499265/126744426-00bc3809-5a66-4020-99b0-47b44ce380ee.png)
+
+
+**Layer 3 Network Layer**
+If layer 2 netowrk, it would need to use same protocol and which wont be desirable at all times
+Ethernet is for local area Network.. layer 2 moves frame from one MAC address to another within same Area..layer 3 can span accross multiple layer 2 network.. Provides IP address..
+
+![image](https://user-images.githubusercontent.com/24499265/126744976-eeff5e6a-c649-4892-b06e-8f2c669f7e61.png)
+when data package moves accorss network each time its de-encasualted and encapsulated with net details including Proprcol ET
+ 
+ layer 3 packets..frames in layer 2 haveing source and destination as local however layer 3 its even opposite site of planet..these source and destination remains same..layer two frame changes each time packet hops to new netowrk
+ 
+ Layer 3 IPv4 and IPv6
+ Procol in this layer is provided by layer 4..can be ICMP, TCP and UDP.. this is to inform the layer 3 at destination to which layer 4 protocol to pass packet to
+TTL  : how many hops package can move through ..after which can be discarded
+Hop limit in Ipv6  same to TTL in IPv4
+
+ 
+ 
 
 
 
