@@ -27,7 +27,9 @@ FCS Bits is to cehck for any error
 
 **CSMA/CD in layer 2**
 Carrier Sense Multiple Access : checks the layer 1 if anyone is transmiting (carrier) and transmits the frame
-on receiving end it sees tha the 
+on receiving end it checks MACS address and realises its destined for itself
+Layer 2 checks medium for any transmission happening. if it happens it will stop layer 1 from transmitting and will wait
+
 
 
 
