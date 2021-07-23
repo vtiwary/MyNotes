@@ -29,6 +29,14 @@ FCS Bits is to cehck for any error
 Carrier Sense Multiple Access : checks the layer 1 if anyone is transmiting (carrier) and transmits the frame
 on receiving end it checks MACS address and realises its destined for itself
 Layer 2 checks medium for any transmission happening. if it happens it will stop layer 1 from transmitting and will wait
+Data before transimitting is encapsulated in a frame and at receving end its de-encapslated
+if a collision is detected at layer two a eacch detecting devices jam and backoff for a random each (differetn for each hopefully)
+if another collission happens random backoff  it will be for a higher time
+Hub is layer one, even if devices connected to it run layer 2 we will have issues of collision (may be less though due to CDMA/CD on laptops) but its a dumb repeater machine so will have problems..better to use a switch 
+
+![image](https://user-images.githubusercontent.com/24499265/126740650-e62f5aa1-cb5c-4d5e-aba8-cff46e3cb527.png)
+it se
+
 
 
 
