@@ -82,6 +82,10 @@ if iP is 133.33.3.7 and its /16, starting ip is 133.33.0.0  (NET START) and NET 
 The ISP has a route table having mapping betwen destinatin and Next HOp/target.. higher the slashmore sepcific it is and moer preffered in case of multiple matches
 ![image](https://user-images.githubusercontent.com/24499265/126938031-14111cb1-251a-4c62-ad83-25a6f16b7d4f.png)
 
+ route tables can be statically populated or using BGP (Boarder Gateway protocol) allowing them to exchage info regardign which network they know about. on a different note, when traffic is routed to AWS, its sent of Layer 2 which wll be the MAC Address of AWS using address resolution protocol
+ 
+ 
+ 
  
 
 
