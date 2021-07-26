@@ -66,7 +66,22 @@ when data package moves accorss network each time its de-encasualted and encapsu
 TTL  : how many hops package can move through ..after which can be discarded
 Hop limit in Ipv6  same to TTL in IPv4
 
- 
+
+**IP Addresses**
+IP has Netowrk part and host part. if network part matches then its same IP
+![image](https://user-images.githubusercontent.com/24499265/126935483-eed6a887-e6e3-461b-83fe-26a6d5b896f5.png)
+
+IP can be machine assigned(dynamic) or Human assigned (static)
+Subnet mask allows host to determine if IP Address it needs to commmunicate is on same network or if it needs to use default gateway
+255.255.0.0 is /16 ..if converted to binary it tells which  part is subnet (ones) and which part is host (zeros)
+if. 11111111.11111111.00000000.00000000
+if iP is 133.33.3.7 and its /16, starting ip is 133.33.0.0  (NET START) and NET END IS 133.33.255.255 ..i.e take all Zeros on host part and replace it with all Zeros
+
+![image](https://user-images.githubusercontent.com/24499265/126937117-e512f078-668f-4838-bb26-2736f83cc089.png)
+
+The ISP has a route table having mapping betwen destinatin and Next HOp/target.. higher the slashmore sepcific it is and moer preffered in case of multiple matches
+![image](https://user-images.githubusercontent.com/24499265/126938031-14111cb1-251a-4c62-ad83-25a6f16b7d4f.png)
+
  
 
 
