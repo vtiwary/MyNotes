@@ -97,6 +97,31 @@ Layer 3 only can result in pacaket delviered out of order, also multiple channel
 Issue with Layer 3, packets can arrive out of order and there is no way to control and package can go missing too due to netowrk outage or TTL is over etc.. also no distinction between applciations .one packet sent by source (app1) can go to app2 on destiantion..IP itself presetnts no way to differentiate between individual applications
 lastly no flow contro, if source sends faster than destination can process, we will saturate the destination
 
+![image](https://user-images.githubusercontent.com/24499265/127017768-2a440260-14d1-449a-b556-fbfdb2aa2545.png)
+Layer TCP and UDP..TCP/IP : TCP running on top of IP..both run on top of UDP
+TCP is connection based.. creates connection for communication. UDP is not connection based, faster (performance) but not very reliable
+TCP segments are encapsulated in IP packets.. segments dont have source and destination ips but source and destination ports
+
+Sequence number in TCP segment is unique in a particular connectin, helps with sequencing and error correction
+Acknowledgement is to confirm that desination has received the package
+Window field allows receiver to control the flow data,, amount of data being sent before next acknowledgement
+Checksum for error checking and retransmission of data as required
+
+![image](https://user-images.githubusercontent.com/24499265/127020356-4e39eca2-35a1-4ab8-a71e-b61c379a9148.png)
+
+In TCP there is a connection between random post of Client and well know port of Server. the random one is Ephemeral port or higher port.. typically range..
+Often requiring firewall rules to the client as Network ACL are bidirectional for this reason. for Inbound and Outbound rules
+
+![image](https://user-images.githubusercontent.com/24499265/127021403-be90694b-a044-4cce-bcc5-d6be04ddf047.png)
+
+to begin client starts with a sequence, sends a SYN and a random sequence.. server also send a SYN and its own sequence it is going to start with and acknowledgement
+![image](https://user-images.githubusercontent.com/24499265/127022008-ea88c994-e78c-4c40-ab13-32819b5e5458.png)
+
+
+
+
+
+
 
 
 
