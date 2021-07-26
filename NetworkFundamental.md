@@ -115,7 +115,11 @@ Often requiring firewall rules to the client as Network ACL are bidirectional fo
 ![image](https://user-images.githubusercontent.com/24499265/127021403-be90694b-a044-4cce-bcc5-d6be04ddf047.png)
 
 to begin client starts with a sequence, sends a SYN and a random sequence.. server also send a SYN and its own sequence it is going to start with and acknowledgement
-![image](https://user-images.githubusercontent.com/24499265/127022008-ea88c994-e78c-4c40-ab13-32819b5e5458.png)
+![image](https://user-images.githubusercontent.com/24499265/127022593-268271a2-0a7f-488e-9627-d886143a3d2a.png)
+
+Stateful and stateless firewalls
+![image](https://user-images.githubusercontent.com/24499265/127023132-7799699d-1aef-42ac-a0c0-765c7e1a4dd7.png)
+
 
 
 
