@@ -82,7 +82,18 @@ if iP is 133.33.3.7 and its /16, starting ip is 133.33.0.0  (NET START) and NET 
 The ISP has a route table having mapping betwen destinatin and Next HOp/target.. higher the slashmore sepcific it is and moer preffered in case of multiple matches
 ![image](https://user-images.githubusercontent.com/24499265/126938031-14111cb1-251a-4c62-ad83-25a6f16b7d4f.png)
 
- route tables can be statically populated or using BGP (Boarder Gateway protocol) allowing them to exchage info regardign which network they know about. on a different note, when traffic is routed to AWS, its sent of Layer 2 which wll be the MAC Address of AWS using address resolution protocol
+ route tables can be statically populated or using BGP (Boarder Gateway protocol) allowing them to exchage info regardign which network they know about. on a different note, when traffic is routed to AWS, its sent of Layer 2 which wll be the MAC Address of AWS using address resolution protocol (ARP).. this is used when we need to find MAC address of the remote destination but we dont know what it is and only know the IP Address
+ ARP sits between layer 3 and 2 since while layer 2 frame is created it needs MAC addresses.for local and remote as well
+ 
+ ![image](https://user-images.githubusercontent.com/24499265/126940765-14115143-b230-46fc-bb97-654f912bc6f0.png)
+Routers are layer 3 devices meaning they understand layer 1-3
+laptop/desktops will drop the packets not destined to it however router job is to route packet so it wont drop it, rather remove frame and keep the packet attached MAC of next destination using Routing table and calling ARP with that IP
+
+![Uploading image.png…]()
+
+
+
+ 
  
  
  
