@@ -89,7 +89,14 @@ The ISP has a route table having mapping betwen destinatin and Next HOp/target..
 Routers are layer 3 devices meaning they understand layer 1-3
 laptop/desktops will drop the packets not destined to it however router job is to route packet so it wont drop it, rather remove frame and keep the packet attached MAC of next destination using Routing table and calling ARP with that IP
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/24499265/126942189-ca121d95-97a9-4da3-b399-c10fc390a0f4.png)
+
+Layer 3 only can result in pacaket delviered out of order, also multiple channel of communication cant happen then since it works on IPs of source and destination
+
+**Transport layer -4** Session layer (layer 5) sits on top of transport layer
+
+
+
 
 
 
