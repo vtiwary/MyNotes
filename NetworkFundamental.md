@@ -94,6 +94,9 @@ laptop/desktops will drop the packets not destined to it however router job is t
 Layer 3 only can result in pacaket delviered out of order, also multiple channel of communication cant happen then since it works on IPs of source and destination
 
 **Transport layer -4** Session layer (layer 5) sits on top of transport layer
+Issue with Layer 3, packets can arrive out of order and there is no way to control and package can go missing too due to netowrk outage or TTL is over etc.. also no distinction between applciations .one packet sent by source (app1) can go to app2 on destiantion..IP itself presetnts no way to differentiate between individual applications
+lastly no flow contro, if source sends faster than destination can process, we will saturate the destination
+
 
 
 
