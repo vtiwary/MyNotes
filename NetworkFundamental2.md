@@ -33,3 +33,17 @@ IP Ranges CLass A, B and C.. Class A: 3 Octets are free 1 subnetted (for  networ
 Private network
 ![image](https://user-images.githubusercontent.com/24499265/127092891-4eec140d-5532-4379-a7fb-93f0e1b695cc.png)
 
+Larger the prefix value, smalle the range for IP Subnetting
+
+10.16.0.0 can be broken as 10.16.0.0-10.16.127.255 (10.16.0.0/17) and 10.6.128.0-10.16.255.255 (10.16.0.128/17)
+Spliting the second one can be as folow 
+1) 10.16.128.0/18 
+2) 10.16.192.0/18
+
+![image](https://user-images.githubusercontent.com/24499265/127103693-64e8d6e5-89bd-4ac8-84c4-34daabb6c8e4.png)
+
+![image](https://user-images.githubusercontent.com/24499265/127103826-703f6e36-3ada-407a-86db-4eb5b34981f0.png)
+
+
+
+
