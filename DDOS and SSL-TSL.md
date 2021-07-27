@@ -18,8 +18,16 @@ takes tiny size to bring down lager servers
 
 
 **SSL/TLS**
+helps with privacy and Data integrity between client and server
+Privacy by encryption
+Asymteric then symmetric as symetric one is computationally mor efficient
+* identity (cleint server or both verified): capable of 2 way verificagtions wheatehr server or client are who they say they are
+* but typically server is the one which is ver
+![image](https://user-images.githubusercontent.com/24499265/127191072-526f40c5-0493-406f-853f-84b1330509ed.png)
 
 
- 
+![image](https://user-images.githubusercontent.com/24499265/127196551-556c36b0-ede7-43f7-a570-4de7c42d3205.png)
+
+
  
 
