@@ -24,3 +24,12 @@ NAT Gateway 1) take IP packet, change source IP to self and port of one of it's 
 3) when traffic (response) returns, refers to the NAT Table , translates the Private port and IP and forwards it to the client
 
 
+**IP Addressing and Subnetting**
+Public IPV4 addresses are assigned by Authority
+Private ones can be assigned freely..  
+IP Ranges CLass A, B and C.. Class A: 3 Octets are free 1 subnetted (for  network).. clss B 2 and class c only 1.. 
+![image](https://user-images.githubusercontent.com/24499265/127092399-1854b79b-1d9b-40ab-a658-6c382ce47174.png)
+
+Private network
+![image](https://user-images.githubusercontent.com/24499265/127092891-4eec140d-5532-4379-a7fb-93f0e1b695cc.png)
+
