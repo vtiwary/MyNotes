@@ -14,7 +14,11 @@ Protocol based
 Volumetric attack
 Instead of Affecting app server it will affect connection to APp serer since all responses will go to APp server from DNS serveres as spofed ip will be of APp server
 takes tiny size to bring down lager servers
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/24499265/127185591-14d337db-737a-40b6-8046-30108c46bcbd.png)
+
+
+**SSL/TLS**
+
 
  
  
