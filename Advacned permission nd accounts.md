@@ -16,3 +16,26 @@ People assuming the same role will get same permissions, it's not feasible to as
 
 All that was needed was access key, secret key and Token , using which anything can assume the role
 
+Use revoke session.. it attaches an inline policy to the IAM Role as show below offcourse in UTC
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Deny",
+            "Action": [
+                "*"
+            ],
+            "Resource": [
+                "*"
+            ],
+            "Condition": {
+                "DateLessThan": {
+                    "aws:TokenIssueTime": "2021-08-09T06:22:23.999Z"
+                }
+            }
+        }
+    ]
+}
+
+once it's applied, stole assumed role credentials can't be used and attacker has no way to invoke STS assuemd role persmission
+But any services which had called Assumed role on this IAM Role will have similar issue..i..e. EC2 needs to restart
+
