@@ -13,3 +13,6 @@ People assuming the same role will get same permissions, it's not feasible to as
 * then legimitate users are free to assume policies again
 * Manully we can't invalidate temp credentails
 * ![image](https://user-images.githubusercontent.com/24499265/127253216-24818372-eb45-43fb-8547-f8700b66a6d2.png)
+
+All that was needed was access key, secret key and Token , using which anything can assume the role
+
