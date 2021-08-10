@@ -37,5 +37,5 @@ Use revoke session.. it attaches an inline policy to the IAM Role as show below 
 }
 
 once it's applied, stole assumed role credentials can't be used and attacker has no way to invoke STS assuemd role persmission
-But any services which had called Assumed role on this IAM Role will have similar issue..i..e. EC2 needs to restart
+But any services which had called Assumed role on this IAM Role will have similar issue..i..e. EC2 needs to restart to  get new set of credentials
 
