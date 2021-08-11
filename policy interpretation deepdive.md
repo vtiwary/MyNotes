@@ -19,8 +19,7 @@ always start with checking how many statement the given policy has
 
 ![image](https://user-images.githubusercontent.com/24499265/128817835-fd9dfc6c-de78-44bf-a136-c1f54ca78a5a.png)
 
-
-
-
+for 3 S3 Actions ListALlmyBuckets, GetBucketLocation and CreateBucket , resource needs to be * in the policy 
+if resource jsut folder say "animaladdress" then its all permission is on the bucket if "animaladdress/*" then on the components in the buckets
 
 
