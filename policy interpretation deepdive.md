@@ -23,3 +23,5 @@ for 3 S3 Actions ListALlmyBuckets, GetBucketLocation and CreateBucket , resource
 if resource jsut folder say "animaladdress" then its all permission is on the bucket if "animaladdress/*" then on the components in the buckets
 
 Providing access to other account via ACL has one issue, when other account uploads it, parent account wont have any control over the file that other account uploads.. they will be owner (unless they decide to grant you the access)
+
+Canomical account ID is used to provide account access through ACL to the bucket
