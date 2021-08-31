@@ -25,3 +25,4 @@ if resource jsut folder say "animaladdress" then its all permission is on the bu
 Providing access to other account via ACL has one issue, when other account uploads it, parent account wont have any control over the file that other account uploads.. they will be owner (unless they decide to grant you the access)
 
 Canomical account ID is used to provide account access through ACL to the bucket
+for the files uplaoded by ACL or Bucket policies, owners are the account which uploaded the files not the account in which files were placed
