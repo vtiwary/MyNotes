@@ -26,3 +26,4 @@ Providing access to other account via ACL has one issue, when other account uplo
 
 Canomical account ID is used to provide account access through ACL to the bucket
 for the files uplaoded by ACL or Bucket policies, owners are the account which uploaded the files not the account in which files were placed
+Its it's a scenario about cross region or same region replication, creating an account and allowing other account to assume role helps since both can have acess to it now sice it was created by the id from same account (though assumed role was used)
